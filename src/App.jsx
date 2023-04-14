@@ -1,10 +1,11 @@
-import { Box, Heading } from '@chakra-ui/react'
+import { Container } from '@chakra-ui/react'
+import { Result } from './components/Result'
 
 function App () {
   return (
-    <Box>
-      <Heading>Hello World</Heading>
-    </Box>
+    <Container minH='100vh' minW='100%' display='flex'>
+      <Result />
+    </Container>
   )
 }
 

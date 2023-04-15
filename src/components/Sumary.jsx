@@ -1,4 +1,6 @@
-import { Flex, Box, Heading, Text, Button } from '@chakra-ui/react'
+
+import { Box, Heading, Button } from '@chakra-ui/react'
+import { ResultsList } from './ResultsList'
 
 export const Summary = () => {
   return (
@@ -11,7 +13,8 @@ export const Summary = () => {
       h='420px'
     >
       <Heading fontFamily='headings' fontSize='25px'>Summary</Heading>
-      <Button w='full' borderRadius='20px' color='white' fontFamily='headings' bgColor='neutral.dark-gray-blue' padding='1.5rem'>
+      <ResultsList />
+      <Button mt='.4rem' w='full' borderRadius='20px' color='white' fontFamily='headings' bgColor='neutral.dark-gray-blue' padding='1.5rem'>
         Continue
       </Button>
     </Box>

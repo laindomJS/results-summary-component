@@ -20,6 +20,12 @@ export const theme = extendTheme({
       'pale-blue': 'hsl(221, 100%, 96%)',
       'light-lavender': 'hsl(241, 100%, 89%)',
       'dark-gray-blue': 'hsl(224, 30%, 27%)'
+    },
+    transparents: {
+      'light-red': 'hsla(0, 100%, 67%, 0.3)',
+      'orangey-yellow': 'hsla(39, 100%, 56%, 0.3)',
+      'green-teal': 'hsla(166, 100%, 37%, 0.3)',
+      'cobalt-blue': 'hsla(243, 85%, 45%, 0.3)'
     }
   }
 })

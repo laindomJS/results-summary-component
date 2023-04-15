@@ -1,15 +1,7 @@
-import { useState, useEffect } from 'react'
+import { data as results } from '../data'
 import { ResultItem } from './ResultItem'
 
 export const ResultsList = () => {
-  const [results, setResults] = useState([])
-
-  useEffect(() => {
-    fetch('./src/data.json')
-      .then(res => res.json())
-      .then(data => setResults(data))
-  }, [])
-
   return (
     <>
       {results.map(result => (

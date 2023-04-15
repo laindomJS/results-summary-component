@@ -5,8 +5,12 @@ import { ResultsList } from './ResultsList'
 export const Summary = () => {
   return (
     <Box
+      as='article'
       w='310px'
-      borderRadius='12px'
+      borderTopRightRadius='10px'
+      borderBottomRightRadius='10px'
+      borderTopLeftRadius='0px'
+      borderBottomLeftRadius='0px'
       padding='1.5rem'
       bgColor='white'
       boxShadow='lg'

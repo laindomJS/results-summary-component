@@ -11,9 +11,14 @@ export const ResultItem = (result) => {
       borderRadius='8px'
       my='.6rem'
     >
-      <Text color={result.textColor} fontFamily='headings' fontWeight='600'>
-        {result.category}
-      </Text>
+
+      <Flex>
+        <img src={result.icon} alt={result.category} />
+        <Text mx='.5rem' color={result.textColor} fontFamily='headings' fontWeight='600'>
+          {result.category}
+        </Text>
+      </Flex>
+
       <Text fontFamily='headings'>
         <span style={{ fontWeight: '600' }}>
           {result.score}

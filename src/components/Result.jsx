@@ -3,6 +3,7 @@ import { Box, Flex, Heading, Text } from '@chakra-ui/react'
 export const Result = () => {
   return (
     <Flex
+      as='article'
       w='310px'
       borderRadius='12px'
       padding='1.5rem'
@@ -11,7 +12,7 @@ export const Result = () => {
       bgColor='gradients.light-royal-blue'
       h='420px'
     >
-      <Text color='neutral.light-lavender' fontSize='22px' fontFamily='headings' fontWeight='bold'>
+      <Text as='p' color='neutral.light-lavender' fontSize='22px' fontFamily='headings' fontWeight='bold'>
         Your Result
       </Text>
 
@@ -20,7 +21,7 @@ export const Result = () => {
         <Text fontWeight='semibold' color='neutral.light-lavender'>of 100</Text>
       </Box>
 
-      <Box mt='2rem'>
+      <Box as='section' mt='2rem'>
         <Heading fontSize='28px' color='white' mb='.6rem'>Great</Heading>
         <Text fontFamily='headings' fontWeight='600' w='90%' mx='auto' color='neutral.light-lavender'>
           You scored higher than 65% of the people who have taken these tests.

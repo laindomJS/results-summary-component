@@ -22,10 +22,10 @@ export const theme = extendTheme({
       'dark-gray-blue': 'hsl(224, 30%, 27%)'
     },
     transparents: {
-      'light-red': 'hsla(0, 100%, 67%, 0.3)',
-      'orangey-yellow': 'hsla(39, 100%, 56%, 0.3)',
-      'green-teal': 'hsla(166, 100%, 37%, 0.3)',
-      'cobalt-blue': 'hsla(243, 85%, 45%, 0.3)'
+      'light-red': 'hsla(0, 100%, 67%, 0.2)',
+      'orangey-yellow': 'hsla(39, 100%, 56%, 0.2)',
+      'green-teal': 'hsla(166, 100%, 37%, 0.2)',
+      'cobalt-blue': 'hsla(243, 85%, 45%, 0.2)'
     }
   }
 })

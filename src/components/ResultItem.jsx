@@ -1,4 +1,4 @@
-import { Text, Flex } from '@chakra-ui/react'
+import { Text, Flex, Image } from '@chakra-ui/react'
 export const ResultItem = (result) => {
   return (
     <Flex
@@ -13,7 +13,7 @@ export const ResultItem = (result) => {
     >
 
       <Flex>
-        <img src={result.icon} alt={result.category} />
+        <Image src={result.icon} alt={result.category} />
         <Text mx='.5rem' color={result.textColor} fontFamily='headings' fontWeight='600'>
           {result.category}
         </Text>

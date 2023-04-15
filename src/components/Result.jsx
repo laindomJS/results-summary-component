@@ -5,7 +5,7 @@ export const Result = () => {
     <Flex
       as='article'
       w='310px'
-      borderRadius='12px'
+      borderRadius='20px'
       padding='1.5rem'
       flexDirection='column'
       textAlign='center'

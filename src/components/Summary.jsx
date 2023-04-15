@@ -7,13 +7,13 @@ export const Summary = () => {
     <Box
       as='article'
       w='310px'
-      borderTopRightRadius='10px'
-      borderBottomRightRadius='10px'
+      borderTopRightRadius='20px'
+      borderBottomRightRadius='20px'
       borderTopLeftRadius='0px'
       borderBottomLeftRadius='0px'
       padding='1.5rem'
       bgColor='white'
-      boxShadow='lg'
+      boxShadow='xl'
       h='420px'
     >
       <Heading fontFamily='headings' fontSize='25px'>Summary</Heading>

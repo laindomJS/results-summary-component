@@ -1,5 +1,5 @@
 ## Results Summary Component
-A Component for visualiza the results of a quiz. Builded with React and ChakraUI.
+A Component for visualize the results of a quiz. Builded with React and ChakraUI.
 
 ## Tech Stack
 **Client**: React, Chakra-UI
